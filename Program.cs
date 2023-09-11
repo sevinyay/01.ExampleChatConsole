@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to my guess number game!");
+            Console.WriteLine("Welcome to guess number game!");
             Random random = new Random();
             int targetNumber = random.Next(1, 101);
 
